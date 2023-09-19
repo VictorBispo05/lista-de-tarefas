@@ -15,12 +15,30 @@
 
 h1 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form input {
     display: flex;
+    width: 235px;
+    height: 25px;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .Concluido {
     text-decoration: line-through;
+}
+
+li {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid black;
 }
